@@ -8,7 +8,15 @@
     height: 36px;
     width: 105px;
     margin-right: 8px;
+    transition: opacity 1s;
   }
+  .subscribe_btn:hover{
+    opacity: 0.8;
+  }
+  .subscribe_btn:active {
+    opacity: 0.5;
+  }
+
   .join_btn {
     background-color: white;
     border-color: rgb(41, 188, 211);
@@ -19,8 +27,16 @@
     cursor: pointer;
     height: 36px;
     width: 62px;
-    
+    transition: background-color 1s;
   }
+  .join_btn:hover{
+    background-color: rgb(41, 188, 211);
+    color: white;
+  }
+  .join_btn:active {
+      opacity: 0.7;
+  }
+
   .gh_btn {
     background-color: blueviolet;
     color: white;
@@ -33,6 +49,7 @@
     cursor: pointer;
     margin-left: 8px ;
   }
+
 </style>
 <button class="subscribe_btn">SUBSCRIBE</button>
 <button class="join_btn">JOIN</button>
